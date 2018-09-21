@@ -1,0 +1,8 @@
+#!/bin/sh
+
+RC=1
+while [ $RC -ne 0 ]; do
+python marketmaker
+RC=$?
+sleep 10
+done
